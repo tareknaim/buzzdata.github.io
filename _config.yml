@@ -19,3 +19,7 @@ github_username: BuzzData
 
 # Build settings
 markdown: kramdown
+
+sass:
+  sass_dir: css/_sass
+  style: compressed
