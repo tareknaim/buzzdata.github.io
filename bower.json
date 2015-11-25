@@ -1,0 +1,25 @@
+{
+  "name": "lb-website",
+  "homepage": "https://github.com/buzzdata/lb-website",
+  "authors": [
+    "Stella Kim <stella.kim@icloud.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bourbon": "~4.2.6",
+    "jquery": "~2.1.4",
+    "normalize-css": "~3.0.3",
+    "foundation-sites": "~6.0.4"
+  }
+}
