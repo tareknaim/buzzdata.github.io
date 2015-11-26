@@ -8,6 +8,8 @@
 @charset "utf-8";
 $web-font-path: "https://fonts.googleapis.com/css?family=Raleway:400,300,700,600,500" !default;
 @import url($web-font-path);
+$font-awesome: "https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css";
+@import url($font-awesome);
 
 // Import commonality partials
 @import

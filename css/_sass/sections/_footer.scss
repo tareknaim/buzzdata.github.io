@@ -1,5 +1,9 @@
 .pre-footer {
 
+  .small-5.columns {
+    padding-top: 52px;
+  }
+
   .small-7.columns {
     padding: 0;
   }
@@ -35,4 +39,62 @@ footer.site-footer {
 
 .site-footer-bottom {
   margin-top: 10px;
+}
+
+.footer-social-media-links {
+  display: inline-block;
+
+  &:hover {
+
+    a {
+      background: rgba(255,255,255, 0.6);
+    }
+  }
+
+  a {
+    @include border-top-radius(50%);
+    @include border-bottom-radius(50%);
+    background: $white;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    margin-right: 10px;
+    @include transition(background .2s ease);
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    &:hover {
+      background: $white;
+    }
+
+    &:before {
+      color: $text-color;
+      position: absolute;
+      display: block;
+      top: 50%;
+      left: 50%;
+    }
+
+    &.fa-twitter:before {
+      font-size: 26px;
+      margin-top: -13px;
+      margin-left: -12px;
+    }
+    &.fa-facebook:before {
+      font-size: 26px;
+      margin-top: -13px;
+      margin-left: -7px;
+    }
+    &.fa-linkedin:before {
+      font-size: 24px;
+      margin-top: -13px;
+      margin-left: -10px;
+    }
+  }
+
+  &:hover {
+
+  }
 }
