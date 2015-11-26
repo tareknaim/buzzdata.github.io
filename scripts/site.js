@@ -28,8 +28,9 @@ jQuery(document).ready(function($) {
       var elementTopToWindowBottom = windowInnerHeight - elementTopToWindowTop;
       var distanceFromBottomToAppear = footerH;
 
-      if(elementTopToWindowBottom > distanceFromBottomToAppear) {
+      if(elementTopToWindowTop < distanceFromBottomToAppear) {
         $(element).addClass('fade-element-show');
+        $(element).removeClass('fade-element-hide');
       }
       else if(elementTopToWindowBottom < 0) {
         $(element).removeClass('fade-element-show');

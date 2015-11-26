@@ -3,7 +3,36 @@
   .small-7.columns {
     padding: 0;
   }
+
+  .btn {
+    margin-top: 22px;
+  }
 }
 
 footer.site-footer {
+  padding: 64px 32px;
+
+  a {
+    color: $white;
+
+    &:hover {
+      color: rgba(255,255,255, 0.8);
+    }
+  }
+}
+
+.site-footer-top {
+  margin-top: 24px;
+  margin-bottom: 60px;
+}
+
+.site-footer-links {
+
+  .small-3.columns {
+    margin-bottom: 30px;
+  }
+}
+
+.site-footer-bottom {
+  margin-top: 10px;
 }
