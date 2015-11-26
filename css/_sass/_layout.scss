@@ -5,9 +5,17 @@
   background: $white;
 }
 
-section .row {
-  margin: 0 auto;
-  max-width: 1020px;
+section {
+
+  .row {
+    margin: 0 auto;
+    max-width: 1020px;
+  }
+
+  .col,.column,.columns {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
 }
 
 .bg-teal {
