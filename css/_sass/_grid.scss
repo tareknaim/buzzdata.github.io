@@ -70,7 +70,8 @@ $largeScreen: 			1020;
 .col,
 .column,
 .columns {
-    padding: ($columnGutter/2) + px;
+    padding-left: ($columnGutter/2) + px;
+    padding-right: ($columnGutter/2) + px;
     // padding: 0 ($columnGutter/2 / 10) + rem;
     position: relative;
     float: $defaultFloat;

@@ -22,4 +22,4 @@ markdown: kramdown
 
 sass:
   sass_dir: css/_sass
-  style: compressed
+  # style: compressed
