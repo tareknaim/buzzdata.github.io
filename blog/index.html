@@ -7,7 +7,12 @@ page_id: 5
 ---
 <section class="blog-featured bg-mint">
   <div class="row">
-    <div class="xsmall-12 small-6 columns">
+
+    <div class="xsmall-12 small-6 small-push-6 columns">
+      <p class="featured-post">Featured Post</p>
+    </div>
+
+    <div class="xsmall-12 small-6 small-pull-6 columns">
       <div>
       {% for featured in site.categories.featured limit:1 %}
         <h1>
@@ -20,10 +25,6 @@ page_id: 5
 
       {% endfor %}
       </div>
-    </div>
-
-    <div class="xsmall-12 small-6 columns">
-      <p class="featured-post">Featured Post</p>
     </div>
   </div>
 </section>

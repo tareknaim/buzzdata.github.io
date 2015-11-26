@@ -236,7 +236,7 @@ strong {
 }
 
 .fade-in-element {
-  @include transition(opacity 0.4s ease-in-out);
+  @include transition(opacity 0.6s ease-in-out);
 }
 
 .fade-element-hide {

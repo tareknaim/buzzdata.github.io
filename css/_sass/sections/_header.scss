@@ -25,6 +25,14 @@ header.site-header {
   &.fixed {
     position: fixed;
     top: 0;
+
+    ~ #page {
+      margin-top: 86px;
+
+      @include media-query(990) {
+        margin-top: 75px;
+      }
+    }
   }
 }
 
