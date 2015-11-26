@@ -26,7 +26,7 @@ $web-font-path: "https://fonts.googleapis.com/css?family=Raleway:400,300,700,600
 //     }
 // }
 @mixin media-query($gridvar) {
-  @media screen and (max-width: $gridvar) {
+  @media screen and (max-width: ($gridvar + px)) {
     @content;
   }
 }

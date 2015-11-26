@@ -14,7 +14,7 @@ $oppositeDirection: 	right;
 
 // Screen Size Name: 	"kick-in" size;
 $smallScreen:			640;
-$mediumScreen:			768;
+$mediumScreen:			840;
 $largeScreen: 			1024;
 
 @function gridCalc($colNumber, $totalColumns) {

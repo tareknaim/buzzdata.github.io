@@ -5,7 +5,7 @@ header.site-header {
   display: table;
   width: 100%;
 
-  .fixed {
+  &.fixed {
     position: absolute;
     top: 0;
     left: 0;
@@ -18,42 +18,49 @@ header.site-header {
     color: $grey;
     letter-spacing: 2px;
   }
+}
 
-  .site-lockup,
-  .site-nav {
-    display: table-cell;
-    vertical-align: middle;
+.site-lockup {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.site-nav {
+  vertical-align: middle;
+  display: table-cell;
+  text-align: right;
+
+  @include media-query(990) {
+    display: none;
+  }
+}
+
+.header-nav {
+
+  a {
+    padding: 10px 14px;
   }
 
-  nav {
-    text-align: right;
-  }
+  a:last-child {
+    @extend %btn;
+    @extend %btn-outline;
+    padding: 12px 19px;
+    color: $teal;
+    margin-left: 10px;
 
-  .header-nav {
-
-    a {
-      padding: 10px 14px;
-    }
-    
-    a:last-child {
-      @extend %btn;
-      @extend %btn-outline;
-      padding: 12px 19px;
-      color: $teal;
-
-      &:hover {
-        background: $teal;
-        @include border-color($teal);
-      }
+    &:hover {
+      background: $teal;
+      @include border-color($teal);
     }
   }
 }
 
 #sidenav-trigger {
-  display: none;
   vertical-align: middle;
+  display: none;
+  text-align: right;
 
-  @include media-query($smallScreen) {
+  @include media-query(990) {
     display: table-cell;
   }
 }
