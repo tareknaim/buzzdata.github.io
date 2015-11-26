@@ -1,6 +1,20 @@
-.button,
-%button,
-a.button,
+%btn-solid {
+  color: $white;
+  @include border-width(0);
+}
+
+%btn-outline {
+  border-width: 2px;
+  border-style: solid;
+
+  &:hover {
+    color: $white;
+  }
+}
+
+.btn,
+%btn,
+a.btn,
 button,
 input[type="submit"] {
   display: inline-block;
@@ -10,89 +24,93 @@ input[type="submit"] {
   @include border-top-radius(3px);
   @include border-bottom-radius(3px);
   @include transition(background .2s ease-in-out, border .2s ease-in-out);
+}
 
-  &.large,
-  &%large {
-    font-size: em(20);
-    padding: 25px 46px;
-  }
+.btn-large,
+%btn-large {
+  font-size: em(20);
+  padding: 23px 44px;
+}
 
-  &.medium,
-  &%medium {
-    font-size: em(15);
-    padding: 21px 34px;
-  }
+.btn-medium,
+%btn-medium {
+  font-size: em(15);
+  padding: 19px 32px;
+}
 
-  &.small,
-  &%small {
-    font-size: em(12);
-    font-weight: 500;
-    padding: 13px 26px;
-  }
+.btn-small,
+%btn-small {
+  font-size: em(12);
+  font-weight: 500;
+  padding: 11px 24px;
+}
 
-  &.solid,
-  &%solid {
-    color: $white;
-    @include border-width(0);
+.btn-solid {
 
-    &-teal {
-      background: $teal;
-
-      &:hover {
-        background: rgba(0, 160, 193, 0.8);
-      }
-    }
-
-    &-navy {
-      background: $text-color;
-
-      &:hover {
-        background: rgba(35, 53, 88, 0.8);
-      }
-    }
-
-    &-orange {
-      background: $orange;
-
-      &:hover {
-        background: rgba(244, 153, 30, 0.8);
-      }
-    }
-  }
-
-  &.outline
-  &%outline {
-    @include border-width(2px);
+  &-teal {
+    @extend %btn-solid;
+    background: $teal;
 
     &:hover {
-      color: $white;
+      background: rgba(0, 160, 193, 0.8);
     }
+  }
 
-    &-teal {
+  &-navy {
+    @extend %btn-solid;
+    background: $text-color;
+
+    &:hover {
+      background: rgba(35, 53, 88, 0.8);
+    }
+  }
+
+  &-orange {
+    @extend %btn-solid;
+    background: $orange;
+
+    &:hover {
+      background: rgba(244, 153, 30, 0.8);
+    }
+  }
+}
+
+.btn-outline {
+
+  &:hover {
+    color: $white;
+  }
+
+  &-teal {
+    @extend %btn-outline;
+    @include border-color($teal);
+    color: $teal;
+
+    &:hover {
+      background: $teal;
       @include border-color($teal);
-      color: $teal;
-
-      &:hover {
-        background: $teal;
-      }
     }
+  }
 
-    &-navy {
+  &-navy {
+    @extend %btn-outline;
+    @include border-color($text-color);
+    color: $text-color;
+
+    &:hover {
+      background: $text-color;
       @include border-color($text-color);
-      color: $text-color;
-
-      &:hover {
-        background: $text-color;
-      }
     }
+  }
 
-    &-orange {
+  &-orange {
+    @extend %btn-outline;
+    @include border-color($orange);
+    color: $orange;
+
+    &:hover {
+      background: $orange;
       @include border-color($orange);
-      color: $orange;
-
-      &:hover {
-        background: $orange;
-      }
     }
   }
 }

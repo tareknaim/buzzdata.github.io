@@ -28,6 +28,25 @@ header.site-header {
   nav {
     text-align: right;
   }
+
+  .header-nav {
+
+    a {
+      padding: 10px 14px;
+    }
+    
+    a:last-child {
+      @extend %btn;
+      @extend %btn-outline;
+      padding: 12px 19px;
+      color: $teal;
+
+      &:hover {
+        background: $teal;
+        @include border-color($teal);
+      }
+    }
+  }
 }
 
 #sidenav-trigger {

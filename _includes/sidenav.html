@@ -4,11 +4,13 @@
         <nav class="mobile-nav">
         {% assign pages = site.pages | sort: 'page_id' %}
         {% for page in pages %}
+        {% if page.label != 'Home' and page.layout == 'default' %}
           {% if page.label %}
           <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.label }}</a>
           {% else %}
           <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
           {% endif %}
+        {% endif %}
         {% endfor %}
         </nav>
       </div>
