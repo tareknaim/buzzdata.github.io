@@ -6,6 +6,10 @@
   margin-top: -86px; //header at-top offset
   position: relative;
   @include transition(left .1s ease-in-out);
+
+  @include media-query(990) {
+    margin-top: -75px;
+  }
 }
 
 header,

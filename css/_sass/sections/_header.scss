@@ -8,9 +8,18 @@ header.site-header {
   z-index: 100;
   @include transition(top .3s ease, left .1s ease-in-out);
 
+  @include media-query(990) {
+    height: 75px;
+  }
+
   &.at-top {
     top: -86px;
     margin-top: 86px;
+
+    @include media-query(990) {
+      top: -75px;
+      margin-top: 75px;
+    }
   }
 
   &.fixed {
