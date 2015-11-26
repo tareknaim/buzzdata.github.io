@@ -17,14 +17,6 @@ header.site-header {
     position: fixed;
     top: 0;
   }
-
-  .page-link {
-    font-size: em(14);
-    text-transform: uppercase;
-    font-weight: 700;
-    color: $grey;
-    letter-spacing: 2px;
-  }
 }
 
 .site-lockup-wrapper {
@@ -52,8 +44,8 @@ header.site-header {
     @extend %btn;
     @extend %btn-outline;
     padding: 12px 19px;
-    color: $teal;
     margin-left: 10px;
+    color: $teal;
 
     &:hover {
       background: $teal;

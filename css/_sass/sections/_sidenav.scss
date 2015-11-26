@@ -10,5 +10,32 @@
 
   &.visible {
     visibility: visible;
+    z-index: 1;
+  }
+}
+
+.sidenav-wrapper {
+  padding: 24px 36px 72px;
+
+  .link-wrapper {
+    padding: 6px 0;
+    display: block;
+
+    &:last-child .page-link {
+      @extend %btn;
+      @extend %btn-outline;
+      padding: 10px 19px;
+      color: $teal;
+      margin-top: 5px;
+
+      &:hover {
+        background: $teal;
+        @include border-color($teal);
+      }
+    }
+  }
+
+  .page-link {
+    padding: 10px 0;
   }
 }

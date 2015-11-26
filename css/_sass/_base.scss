@@ -211,3 +211,11 @@ strong {
     }
   }
 }
+
+.page-link {
+  font-size: em(14);
+  text-transform: uppercase;
+  font-weight: 700;
+  color: $grey;
+  letter-spacing: 2px;
+}
