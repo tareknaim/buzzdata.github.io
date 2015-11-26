@@ -18,15 +18,15 @@ $web-font-path: "https://fonts.googleapis.com/css?family=Raleway:400,300,700,600
   "buttons"
 ;
 
-// Use media queries like this:
-// @include media-query($on-palm) {
+// Use media queries like this, with vars from _grid.scss:
+// @include media-query($smallScreen) {
 //     .wrapper {
 //         padding-right: $spacing-unit / 2;
 //         padding-left: $spacing-unit / 2;
 //     }
 // }
-@mixin media-query($device) {
-  @media screen and (max-width: $device) {
+@mixin media-query($gridvar) {
+  @media screen and (max-width: $gridvar) {
     @content;
   }
 }
