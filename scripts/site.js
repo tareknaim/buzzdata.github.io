@@ -2,6 +2,10 @@ jQuery(document).ready(function($) {
 
   var scrolled;
 	var navH = $('header').outerHeight();
+	var footerH = $('#footerImg').outerHeight() + $('footer').outerHeight();
+
+  var element = $('#footerImg');
+  $(element).addClass('fade-element-hide');
 
 	$(window).scroll(function(event) {
     scrolled = true;
@@ -15,6 +19,23 @@ jQuery(document).ready(function($) {
   		$('header').removeClass('fixed');
       $('header').addClass('at-top');
   	}
+
+    if( $(element).length > 0 ) {
+      var elementTopToPageTop = $(element).offset().top;
+      var windowTopToPageTop = $(window).scrollTop();
+      var windowInnerHeight = window.innerHeight;
+      var elementTopToWindowTop = elementTopToPageTop - windowTopToPageTop;
+      var elementTopToWindowBottom = windowInnerHeight - elementTopToWindowTop;
+      var distanceFromBottomToAppear = footerH;
+
+      if(elementTopToWindowBottom > distanceFromBottomToAppear) {
+        $(element).addClass('fade-element-show');
+      }
+      else if(elementTopToWindowBottom < 0) {
+        $(element).removeClass('fade-element-show');
+        $(element).addClass('fade-element-hide');
+      }
+    }
 	});
 
 	var sideNav = {

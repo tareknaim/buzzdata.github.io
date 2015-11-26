@@ -219,3 +219,15 @@ strong {
   color: $grey;
   letter-spacing: 2px;
 }
+
+.fade-in-element {
+  @include transition(opacity 0.4s ease-in-out);
+}
+
+.fade-element-hide {
+  opacity: 0;
+}
+
+.fade-element-show {
+  opacity: 1;
+}
