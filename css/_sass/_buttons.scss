@@ -64,12 +64,16 @@ input[type="submit"] {
   &%outline {
     @include border-width(2px);
 
+    &:hover {
+      color: $white;
+    }
+
     &-teal {
       @include border-color($teal);
       color: $teal;
 
       &:hover {
-
+        background: $teal;
       }
     }
 
@@ -78,7 +82,7 @@ input[type="submit"] {
       color: $text-color;
 
       &:hover {
-
+        background: $text-color;
       }
     }
 
@@ -87,7 +91,7 @@ input[type="submit"] {
       color: $orange;
 
       &:hover {
-
+        background: $orange;
       }
     }
   }
