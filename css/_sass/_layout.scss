@@ -1,0 +1,42 @@
+/**
+ * Layout Classes
+ */
+#page {
+  background: $white;
+}
+
+.bg-teal {
+  background: $teal;
+}
+
+.bg-mint {
+  background: $mint;
+}
+
+.bg-navy {
+  background: $text-color;
+}
+
+.bg-lt-navy {
+  background: $light-navy;
+}
+
+.bg-teal,
+.bg-navy,
+.bg-lt-navy {
+
+  h1, h2, h3, h4, h5, h6,
+  .alpha, .beta, .gamma, .delta, .epsilon, .zeta,
+  p, li {
+    color: $white;
+  }
+}
+
+.bg-mint {
+
+  h1, h2, h3, h4, h5, h6,
+  .alpha, .beta, .gamma, .delta, .epsilon, .zeta,
+  p, li {
+    color: $text-color;
+  }
+}

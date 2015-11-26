@@ -1,0 +1,15 @@
+
+    <div id="sideNav">
+      <div class="sidenav-wrapper">
+        <nav class="mobile-nav">
+        {% assign pages = site.pages | sort: 'page_id' %}
+        {% for page in pages %}
+          {% if page.label %}
+          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.label }}</a>
+          {% else %}
+          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+          {% endif %}
+        {% endfor %}
+        </nav>
+      </div>
+    </div>

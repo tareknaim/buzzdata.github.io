@@ -3,28 +3,34 @@ layout: default
 body_class: blog
 title: BLOG - LookBookHQ #goes in the head tag
 label: Blog #used in navigation
+page_id: 5
 ---
+<section>
+  <div class="row">
+    <div class="small-12 columns">
+      <h1 class="page-heading">Blog</h1>
 
-<h1 class="page-heading">Blog</h1>
+      <div>
+        {% for featured in site.categories.featured limit:1 %}
+          <span class="post-meta">{{ featured.date | date: "%b %-d, %Y" }}</span>
 
-<div>
-  {% for featured in site.categories.featured limit:1 %}
-    <span class="post-meta">{{ featured.date | date: "%b %-d, %Y" }}</span>
+          <h1>
+            <a class="post-link" href="{{ featured.url | prepend: site.baseurl }}">{{ featured.title }}</a>
+          </h1>
+        {% endfor %}
+      </div>
 
-    <h1>
-      <a class="post-link" href="{{ featured.url | prepend: site.baseurl }}">{{ featured.title }}</a>
-    </h1>
-  {% endfor %}
-</div>
+      <ul class="post-list">
+        {% for post in site.posts %}
+          <li>{{post.catgories | join ", "}}
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-<ul class="post-list">
-  {% for post in site.posts %}
-    <li>{{post.catgories | join ", "}}
-      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-      <h2>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </h2>
-    </li>
-  {% endfor %}
-</ul>
+            <h2>
+              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </h2>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>

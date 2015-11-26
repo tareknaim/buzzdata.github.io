@@ -11,7 +11,7 @@ dl, dd, ol, ul, figure {
 body {
   font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
   color: $text-color;
-  background-color: $background-color;
+  background-color: $text-color;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
   -moz-font-feature-settings: "kern" 1;
@@ -25,6 +25,61 @@ p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
   margin-bottom: $spacing-unit / 2;
+}
+
+
+/**
+ * typography
+ */
+h1, h2, h3, h4, h5, h6,
+.alpha, .beta, .gamma, .delta, .epsilon, .zeta {
+	font-weight: 300;
+}
+
+h1,
+.alpha {
+  font-size: em(45);
+  color: $text-color;
+  line-height: 1.2;
+}
+
+h2,
+.beta {
+  font-size: em(30);
+  color: $teal;
+  line-height: 1.2;
+}
+
+h3,
+.gamma {
+  font-size: em(23);
+  color: $text-color;
+  line-height: 1.4;
+}
+
+h4,
+.delta {
+  font-size: em(16);
+  color: $text-color;
+  line-height: 1;
+}
+//
+// h5,
+// .epsilon {
+// }
+//
+// h6,
+// .zeta {
+// }
+
+// p {
+// }
+
+p,
+li {
+  font-size: em(16);
+  color: $text-color;
+  font-weight: $base-font-weight;
 }
 
 img {
@@ -52,25 +107,17 @@ li {
 }
 
 a {
-  color: $brand-color;
+  color: $link-color;
   text-decoration: none;
 
-  &:visited {
-    color: darken($brand-color, 15%);
-  }
-
   &:hover {
-    color: $text-color;
-    text-decoration: underline;
+    color: lighten($link-color, 10%);
   }
 }
 
 blockquote {
-  color: $grey-color;
-  border-left: 4px solid $grey-color-light;
   padding-left: $spacing-unit / 2;
-  font-size: 18px;
-  letter-spacing: -1px;
+  font-size: em(16);
   font-style: italic;
 
   > :last-child {
@@ -81,7 +128,7 @@ blockquote {
 pre,
 code {
   font-size: 15px;
-  border: 1px solid $grey-color-light;
+  border: 1px solid $grey-light;
   border-radius: 3px;
   background-color: #eef;
 }
@@ -101,11 +148,45 @@ pre {
   }
 }
 
+strong {
+  font-weight: 700;
+}
+
+/**
+ * Utility classes
+ */
 %clearfix {
 
   &:after {
     content: "";
     display: table;
     clear: both;
+  }
+}
+
+.hidden,
+%hidden {
+  display: none;
+}
+
+.inline,
+%inline {
+  display: inline-block;
+}
+
+/**
+ * Common Elements
+ */
+.site-lockup {
+
+  img {
+    width: 245px;
+  }
+
+  &.footer {
+
+    img {
+      width: 295px;
+    }
   }
 }

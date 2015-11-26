@@ -1,0 +1,33 @@
+header.site-header {
+  background: $white;
+  padding: 20px 10px;
+  position: relative;
+  display: table;
+  width: 100%;
+
+  .fixed {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .page-link {
+    font-size: em(14);
+    text-transform: uppercase;
+    font-weight: 700;
+    color: $grey;
+    letter-spacing: 2px;
+  }
+
+  .site-lockup,
+  .site-nav {
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  nav {
+
+  }
+}
+
+#sidenav-trigger {}

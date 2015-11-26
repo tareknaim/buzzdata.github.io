@@ -1,7 +1,7 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
-// vendor files
+// import vendor files
 @import "../../bower_components/bourbon/app/assets/stylesheets/bourbon";
 @import "../../bower_components/normalize-css/normalize.css";
 $global-width: rem-calc(1020) !default;
@@ -11,12 +11,12 @@ $global-width: rem-calc(1020) !default;
 $web-font-path: "https://fonts.googleapis.com/css?family=Raleway:400,300,700,600,500" !default;
 @import url($web-font-path);
 
-// Import partials from `sass_dir` (defaults to `_sass`)
+// Import commonality partials
 @import
   "variables",
   "base",
-  // "mixins",
-  "syntax-highlighting"
+  "syntax-highlighting",
+  "buttons"
 ;
 
 // Use media queries like this:
@@ -31,3 +31,12 @@ $web-font-path: "https://fonts.googleapis.com/css?family=Raleway:400,300,700,600
     @content;
   }
 }
+
+// import section and layout partials
+@import
+  "layout",
+  "sections/header",
+  "sections/footer",
+  "sections/sidenav",
+  "pages/home"
+;
