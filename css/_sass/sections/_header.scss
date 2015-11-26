@@ -20,7 +20,8 @@ header.site-header {
   }
 
   .site-lockup,
-  .site-nav {
+  .site-nav,
+  #sidenav-trigger {
     display: table-cell;
     vertical-align: middle;
   }
@@ -30,4 +31,6 @@ header.site-header {
   }
 }
 
-#sidenav-trigger {}
+#sidenav-trigger {
+
+}

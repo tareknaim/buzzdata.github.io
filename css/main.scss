@@ -4,8 +4,6 @@
 // import vendor files
 @import "../../bower_components/bourbon/app/assets/stylesheets/bourbon";
 @import "../../bower_components/normalize-css/normalize.css";
-$global-width: rem-calc(1020) !default;
-@import "../../bower_components/foundation-sites/scss/grid/grid";
 
 @charset "utf-8";
 $web-font-path: "https://fonts.googleapis.com/css?family=Raleway:400,300,700,600,500" !default;
@@ -15,6 +13,7 @@ $web-font-path: "https://fonts.googleapis.com/css?family=Raleway:400,300,700,600
 @import
   "variables",
   "base",
+  "grid",
   "syntax-highlighting",
   "buttons"
 ;
