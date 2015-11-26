@@ -15,7 +15,7 @@ $oppositeDirection: 	right;
 // Screen Size Name: 	"kick-in" size;
 $smallScreen:			640;
 $mediumScreen:			840;
-$largeScreen: 			1024;
+$largeScreen: 			1020;
 
 @function gridCalc($colNumber, $totalColumns) {
     @return percentage(($colNumber / $totalColumns));
@@ -42,18 +42,18 @@ $largeScreen: 			1024;
     width: 100%;
     margin: 0 auto;
     max-width: ($rowWidth) + px;
-    max-width: ($rowWidth / 10) + rem;
+    // max-width: ($rowWidth / 10) + rem;
     *zoom: 1;
 
     &.half-row {
         max-width: ($rowWidth / 2) + px;
-        max-width: ($rowWidth / 20) + rem;
+        // max-width: ($rowWidth / 20) + rem;
     }
 
     .row {
         width: auto;
         margin: 0 (-($columnGutter/2) + px);
-        margin: 0 (-($columnGutter/2 / 10) + rem);
+        // margin: 0 (-($columnGutter/2 / 10) + rem);
         max-width: none;
         *zoom: 1;
     }
@@ -71,7 +71,7 @@ $largeScreen: 			1024;
 .column,
 .columns {
     padding: 0 ($columnGutter/2) + px;
-    padding: 0 ($columnGutter/2 / 10) + rem;
+    // padding: 0 ($columnGutter/2 / 10) + rem;
     position: relative;
     float: $defaultFloat;
 
@@ -84,7 +84,7 @@ $largeScreen: 			1024;
     display: block;
     padding: 0;
     margin: 0 (-($columnGutter/2) + px);
-    margin: 0 (-($columnGutter/2 / 10) + rem);
+    // margin: 0 (-($columnGutter/2 / 10) + rem);
 }
 
 [class*="block-grid-"]:before,
@@ -104,7 +104,7 @@ $largeScreen: 			1024;
     list-style: none;
     margin: 0;
     padding: 0 ($columnGutter/2) + px;
-    padding: 0 ($columnGutter/2 / 10) + rem;
+    // padding: 0 ($columnGutter/2 / 10) + rem;
 }
 
 @mixin gridSize($sizeName, $kickIn) {
