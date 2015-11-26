@@ -6,4 +6,9 @@
   right: 0;
   bottom: 0;
   background: $white;
+  visibility: hidden;
+
+  &.visible {
+    visibility: visible;
+  }
 }

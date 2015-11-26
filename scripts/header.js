@@ -69,7 +69,7 @@ jQuery(document).ready(function($) {
 
 			/* close the drawer if any links inside the menu are clicked,
 			* needed for in-page anchors and close button */
-			$links = $menu.find('a , .icon-close').click(function(){
+			$links = $menu.find('a').click(function(){
 				sideNav.elements.contents.unbind('touchmove');
 				sideNav.elements.contents.removeClass('no-scroll');
 			});
@@ -78,11 +78,13 @@ jQuery(document).ready(function($) {
 			$page.data('state', 'open');
 			$page.addClass('drawer-open');
       $btn.addClass('opened');
+      $menu.addClass('visible');
 		},
 		hideMenu: function(){
 			$page.data('state', 'closed');
 			$page.removeClass('drawer-open');
       $btn.removeClass('opened');
+      $menu.removeClass('visible');
 		}
 	};
 
