@@ -185,10 +185,17 @@ strong {
   display: inline-block;
 }
 
+.no-scroll {
+	overflow: hidden;
+	height: 100%;
+}
+
 /**
  * Common Elements
  */
 .site-lockup {
+  width: 245px;
+  display: block;
 
   img {
     width: 245px;
