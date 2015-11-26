@@ -44,6 +44,10 @@ footer.site-footer {
 .footer-social-media-links {
   display: inline-block;
 
+  @include media-query($smallScreen) {
+    margin-top: 40px;
+  }
+
   &:hover {
 
     a {
@@ -92,9 +96,5 @@ footer.site-footer {
       margin-top: -13px;
       margin-left: -10px;
     }
-  }
-
-  &:hover {
-
   }
 }

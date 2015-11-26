@@ -6,7 +6,7 @@
 	Free to use, if you make something cool show me!
 */
 $rowWidth: 				1020; 	// *
-$columnGutter: 			10;		// *
+$columnGutter: 			60;		// *
 $totalColumns: 			12;
 
 $defaultFloat: 			left;
@@ -70,7 +70,7 @@ $largeScreen: 			1020;
 .col,
 .column,
 .columns {
-    padding: 0 ($columnGutter/2) + px;
+    padding: ($columnGutter/2) + px;
     // padding: 0 ($columnGutter/2 / 10) + rem;
     position: relative;
     float: $defaultFloat;
