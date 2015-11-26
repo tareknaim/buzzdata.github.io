@@ -6,10 +6,6 @@
 %btn-outline {
   border-width: 2px;
   border-style: solid;
-
-  &:hover {
-    color: $white;
-  }
 }
 
 .btn,
@@ -24,6 +20,10 @@ input[type="submit"] {
   @include border-top-radius(3px);
   @include border-bottom-radius(3px);
   @include transition(background .2s ease-in-out, border .2s ease-in-out);
+
+  &:hover {
+    color: $white;
+  }
 }
 
 .btn-large,
