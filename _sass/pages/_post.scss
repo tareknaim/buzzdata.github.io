@@ -62,6 +62,7 @@ article.post {
 
   .heading {
     font-size: em(14);
+    margin-left: 8px;
   }
 
   .heading, .owlnav {
@@ -74,6 +75,7 @@ article.post {
 
   .owlnav {
     float: right;
+    margin-right: 8px;
 
     i {
       color: #6D7D9A;
@@ -91,11 +93,8 @@ article.post {
 
   .owl-wrapper {
 
-    > div:nth-child(odd) {
+    > div {
       padding-right: 8px;
-    }
-
-    > div:nth-child(even) {
       padding-left: 8px;
     }
   }
