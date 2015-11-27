@@ -15,6 +15,7 @@ button,
 input[type="submit"] {
   display: inline-block;
   text-transform: uppercase;
+  text-align: center;
   font-weight: 700;
   letter-spacing: 2px;
   @include border-top-radius(3px);
