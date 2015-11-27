@@ -4,7 +4,7 @@ jQuery(window).ready(function($) {
 		var owl = $(".latest-posts .owl-carousel");
 
 		owl.owlCarousel({
-      itemsCustom : [[0, 2]],
+      itemsCustom : [[0, 1], [640, 2]],
       stopOnHover : true,
 			pagination : false,
 			scrollPerPage : true,
