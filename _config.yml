@@ -21,8 +21,9 @@ github_username: BuzzData
 markdown: kramdown
 
 sass:
-  sass_dir: css/_sass
+  # sass_dir: css/_sass
   # style: compressed
 
 gem:
   - jekyll-auto-image
+  - bourbon
