@@ -5,6 +5,14 @@
   @include media-query($smallScreen) {
     padding-top: 60px;
     padding-bottom: 40px;
+
+    .featured-image-wrapper {
+      padding-bottom: 0;
+    }
+
+    .featured-post-wrapper {
+      padding-top: 0;
+    }
   }
 
   .featured-post {
@@ -35,15 +43,27 @@
   p {
     margin-bottom: 50px;
   }
+
+  .featured-image-wrapper {
+    a {
+      display: block;
+    }
+
+    img {
+      top: -40px;
+      display: block;
+      position: relative;
+    }
+  }
 }
 
 .blog-list {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 50px;
+  padding-bottom: 10px;
 
   @include media-query($smallScreen) {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 30px;
+    padding-bottom: 0;
   }
 
   .delta {
@@ -77,9 +97,19 @@
     margin-bottom: 10px;
   }
 
-  .list li {
-    @include media-query($smallScreen) {
-      margin-bottom: 50px;
+  .list {
+
+    li {
+      margin-bottom: 80px;
+
+      @include media-query($smallScreen) {
+        margin-bottom: 50px;
+      }
+    }
+
+    .post-image-link {
+      display: block;
+      margin-bottom: 25px;
     }
   }
 }

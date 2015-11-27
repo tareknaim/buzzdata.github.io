@@ -4,6 +4,7 @@ title:  "4 Things B2B Marketers Can Be Thankful For"
 date:   2015-11-22 12:20:38 -0500
 categories: featured
 tags: ["content marketing", "B2B Marketing", "Fast-moving Buyers"]
+image: /assets/posts/4-things-b2b-marketers-can-be-thankful-for.png
 ---
 As B2B marketers, we’re pros at identifying and solving problems. Iteration is one of our super powers and we can always make a campaign better next time. But sometimes we’re so focused on improving that we don’t stop to celebrate our successes or be thankful for how much B2B marketing practices and technology has changed for the better over the past few years. In honor of Thanksgiving, here’s a list of 4 things that B2B marketers can be thankful for.
 
