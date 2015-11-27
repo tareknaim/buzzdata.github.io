@@ -9,9 +9,11 @@ body.home {
     .col,.column,.columns {
       padding-top: 100px;
     }
+  }
 
-    .col-monitor {
-      padding-top: 150px;
+  @media only screen and (min-width: ($largeScreen + px)) {
+    .column-image-bottom {
+      padding-top: 130px !important;
       padding-bottom: 0px;
     }
   }

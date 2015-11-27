@@ -33,6 +33,10 @@ section {
   background: $teal;
 }
 
+.bg-teal-dark {
+  background: $teal-dark;
+}
+
 .bg-mint {
   background: $mint;
 }
@@ -43,6 +47,10 @@ section {
 
 .bg-lt-navy {
   background: $navy-light;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $teal;
 }
 
 .bg-teal,
