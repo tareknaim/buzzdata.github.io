@@ -11,10 +11,25 @@ body.home {
     }
   }
 
-  @media only screen and (min-width: ($largeScreen + px)) {
+  @media only screen and (min-width: (($largeScreen + 1) + px)) {
     .column-image-bottom {
       padding-top: 130px !important;
       padding-bottom: 0px;
+    }
+  }
+}
+
+.home-embeds {
+
+  .lb-unity-wrapper {
+    display: inline-block;
+  }
+
+  .embed-wrapper {
+
+    @media only screen and (min-width: (($largeScreen + 1) + px)) {
+      padding-left: 0;
+      padding-right: 0;
     }
   }
 }
