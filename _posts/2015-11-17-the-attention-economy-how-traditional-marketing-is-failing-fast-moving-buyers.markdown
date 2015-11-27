@@ -1,0 +1,63 @@
+---
+layout: post
+title:  "The Attention Economy: How Traditional Marketing is Failing Fast-Moving Buyers"
+date:   2015-11-17 12:20:38 -0500
+categories: featured
+tags: ["content marketing", "demand gen", "B2B Marketing"]
+image: /assets/posts/the-attention-economy.png
+---
+In 2001, Thomas Davenport and John Beck coined the phrase _Attention Economy_ to describe the scarcity of attention and how to measure it, understand it and use it. It’s no accident that this idea coincided with the mass adoption of the web, which provided people with practically unlimited access to information. The notion of the attention economy is even more relevant today and it continues to have far-reaching implications for how marketers influence and educate their buyers. 
+
+**The Buyer is in Control**
+People today do their homework. They’re used to making considered purchases in their personal lives and they readily bring their research skills to the office. Digital technology and the ease with which anyone can find information online has empowered buyers to be more educated and informed than ever before.  
+
+This democratization of information over the past 15 years has also eroded traditional decision-making hierarchies that have been in place since the 1950s. Whereas in the past, your boss told you what solutions or tools you were going to use, today the process is much more (well…) democratic. Organizations now require end users to help select, spec and justify the best products or services. After all, who knows better what is needed, what works and what doesn’t than the people who use the solution every day? Companies also expect that you have the skills to research and recommend the right solutions. 
+
+**What Does This Mean for Marketers?**
+Marketers now have to educate and convince a lot more people that their service or solution is the best one. And all of these different people involved in the purchase decision are doing the majority of their research before anyone ever reaches out to contact you.
+
+As a marketer, you’re not doing your job if you can’t influence people’s attitudes toward a fact, product or service during their process of educating themselves. However you define it, your ultimate goal is to affect their behavior and channel the most sales-ready buyers. To do this, you create content to help prospects solve problems, evaluate options and uncover solutions, but let’s look at the math on content consumption.
+
+**How Much Content Do Buyers Need? **
+Research shows that B2B buyers need to engage with a large volume of content prior to becoming sales-ready. According to an IDG Enterprise study on customer engagement*, buyers of B2B technology solutions consume at least 7 pieces of content per persona before a purchasing decision is made. For enterprise decisions, up to 17 people may be involved in the purchase process. This means marketing would ideally need to make _about 120 unique points of engagement_ across multiple channels in order to fully influence the decision. In the distant past, this would have happened through a series of sales presentations. Now much of this influence goes on outside of the marketer’s direct control: Your content needs to do the work of influencing prospects, not your sales team.
+
+**More and Faster – Content and the Fast-Moving Buyer**
+Your buyers today can move really fast if they need to, and a percentage of them do just that. They’re empowered to develop their own opinions and follow their own content journeys – and some of them are highly motivated to do it right now. 
+
+Bob just spoke up in a planning and strategy meeting and now he’s suddenly responsible for having a solution ready to present in two weeks. Sally, on the other hand, was just in a similar meeting at another company and agreed with her team that they would not begin looking at solutions until the end of next year. Bob and Sally share the same title and persona, but Bob is fast moving and is now looking for the content he needs every chance he gets. Sally is not so fast moving: She will download your white paper and likely forget about it until much later. 
+
+Your value to a fast mover like Bob lies in your ability to help him get a good portion of his research done in those moments when he is ready to do it. The content offers that Bob clicks on in between meetings, at the airport, etc. create a window of opportunity that you can’t afford to waste. This fast-moving buyer’s content journey will sooner than later lead him to many different sources of information that are just a click away. Your challenge is to make sure Bob engages with enough of _your_ material in the moment to convert him to your way of thinking.
+
+**The Fallacy of Traditional Nurturing**
+It would be great if prospects identified themselves and responded to drip nurture campaigns or retargeting at sufficient levels to achieve the type of content engagement needed to influence fast movers like Bob – not to mention the 17 other people from Bob’s company that are part of the buying process.  
+
+Better yet, wouldn’t it be terrific if your sales-ready buyers simply came to your resource center and took the time to discover everything they need? But the fact is they don’t. At best they might treat you as a single stop along a research path that will take them through content from all over the web. Your buyers are busy, distracted and information-overloaded (a side effect of unlimited information access). It’s unlikely that you can hold their attention by asking them to push past the less relevant materials on your website and hunt for the things they need to read right now. They might download something and click once or twice – but then they’re gone.  
+
+Likewise, traditional scheduled lead nurturing that delivers one piece of content then waits a week to deliver the next can’t accommodate a fast-moving buyer who wants more information _here and now_. Even if you’re fortunate enough to capture someone’s attention and get them to click through on your single content offer, the math isn’t on your side. Why? _Because you’ll still need to re-earn that attention again and again (up to 119 more times)_. 
+
+And here’s the thing: Your buyers will move toward a purchase with or without you. If they can’t get what they want while engaging with your material, they will go elsewhere. That’s bad for the marketer and potentially bad for the buyer who now has to keep hunting all over the web.
+
+**Depressed yet?**
+Don’t be. I’m not, and here’s why. While it’s true that current trends in marketing technology and lead nurturing strategies haven’t kept pace with fast-moving buyers, things are beginning to change.
+
+The first generation of marketing tech was all about chasing buyers and nurturing them over time with drip campaigns and one-off content offers. As a colleague of mine, who was one of the masterminds behind the first generation of marketing automation technology, put it:
+
+_“The greatest conceit in modern marketing technology was the idea that we could get people to move faster along their path to purchase by chasing them around targeted channels with an ever-increasing volume of offers.”  _
+
+In today’s environment, marketers should not be trying to manufacture velocity; instead they should focus on learning to accommodate and detect it. Buyers move at different speeds and follow different paths through their educational and decision-making journey.  They are governed by their roles and by their organization’s budget and timeline. As a marketer, there isn’t much you can do to directly transform a slow-moving buyer with low sales readiness into a fast mover who is ready to buy right now. You can, however, accommodate them differently to help the fast mover quickly and efficiently consume the content they need when they need it. 
+
+[Nick Edouard](https://ca.linkedin.com/in/nickedouard), LookBookHQ’s co-founder and CMO, talks about accommodating the buyer in terms of _nature and nurture_. Marketers today primarily operate on the nurture model (i.e. the idea that you can move people to sales-readiness if you can get them to interact with a volume of content offers over time). This helps for sure, but there are also buyers (like Bob) who are in a _natural_ state of sales readiness (for all the reasons mentioned earlier). This is the nature side of the equation and being able to recognize and accommodate this fast mover behavior with the right type of content experience will be a big consideration for marketers in the future.
+
+**Welcome to the Content Revolution**
+Let’s circle back to the notion of attention as the marketer’s currency. [Josh Weinman](https://www.linkedin.com/in/joshweinman) from [Technology Crossover Ventures](http://www.tcv.com) pointed out to me recently that he sees a huge disparity today between the investment that B2B marketers put into attention acquisition (getting people to click… and then to click again and again) and how much they spend on post-click attention maintenance (preserving attention by getting people to actually spend time engaging with content after they click). 
+
+By my own pithy calculations, I’d estimate that B2B marketers spend about $25 billion per year getting people’s attention in the form of content offers and other conversion tactics. But what happens _after_ the click, conversion or download? 
+
+In order to hold on to their buyer’s attention and get more value out of every click, marketers will have to shift their focus to creating post-click content experiences capable of engaging buyers who likely have vastly different content consumption needs. This represents the next generation of marketing technology that is poised to dramatically change how marketers think about their digital presence – and this fundamental shift is happening now.
+
+Leading marketers are already starting to worry less about their domains, “one-size-fits-all” websites and landing pages and more about the content itself – not only the format of that content, but how it’s organized, packaged, grouped, delivered and tracked. They’re getting smarter about designing rewarding content experiences after the click and matching those experiences to the buyer’s journey and behavior. And this is a good thing for prospects and marketers alike because it recognizes and respects the economics of the buyer’s attention. 
+
+<br>
+_[Mark Attila Opauszky](https://www.linkedin.com/in/opauszky) is Co-Founder and CEO of LookBookHQ. Over his 20-year career building and selling B2B solutions to busy people, Mark developed a keen interest in how decision makers consume content during the buying process. This led to the formation of LookBookHQ to address the growing need for a solution that would enable B2B brands to deliver more engaging post-click content experiences. _
+
+***Source:** 2014 IDG Enterprise Customer Engagement Survey, [IDG Enterprise](http://www.idgenterprise.com/report/customer-engagement-2014), December 18, 2014.

@@ -1,8 +1,0 @@
----
-layout: post
-title:  "Test Post"
-date:   2015-11-25 13:37:38 -0500
-categories: jekyll update
-image: /assets/posts/4-things-b2b-marketers-can-be-thankful-for.png
----
-This is a random test post.

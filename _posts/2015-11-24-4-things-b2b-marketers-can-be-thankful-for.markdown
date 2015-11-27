@@ -2,7 +2,7 @@
 layout: post
 title:  "4 Things B2B Marketers Can Be Thankful For"
 date:   2015-11-22 12:20:38 -0500
-categories: featured
+categories: 
 tags: ["content marketing", "B2B Marketing", "Fast-moving Buyers"]
 image: /assets/posts/4-things-b2b-marketers-can-be-thankful-for.png
 ---
