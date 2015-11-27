@@ -68,6 +68,14 @@
   }
 }
 
+.logo-carousel-wrapper {
+  
+  @media only screen and (min-width: (($largeScreen + 1) + px)) {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
 .home-review {
   padding-top: 40px;
   padding-bottom: 30px;
