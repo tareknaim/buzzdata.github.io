@@ -2,7 +2,7 @@
   padding-top: 80px;
   padding-bottom: 60px;
 
-  @include media-query($smallScreen) {
+  @include media-query($mediumScreen) {
     padding-top: 60px;
     padding-bottom: 40px;
 
