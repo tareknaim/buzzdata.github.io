@@ -1,0 +1,22 @@
+article.post {
+  padding-top: 100px;
+  padding-bottom: 90px;
+
+  time {
+    display: block;
+    color: $blue;
+    margin-bottom: 10px;
+  }
+
+  h1 {
+    margin-bottom: 30px;
+
+    a {
+      color: $text-color;
+
+      &:hover {
+        color: $text-color;
+      }
+    }
+  }
+}
