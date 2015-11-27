@@ -55,9 +55,25 @@ body_class: post
         {% endfor %}
       </p>
       <p>
-        <a href="" class="likes"><i class="fa fa-heart"></i>Likes</a>
-        <a href="" class="share"><i class="fa fa-share-alt"></i>Share</a>
+        <a href="#" class="likes"><i class="fa fa-heart"></i>Likes</a>
+        <a href="#" class="share"><i class="fa fa-share-alt"></i>Share</a>
       </p>
+    </div>
+  </div>
+
+  <div class="row bottom-post-nav">
+    <div class="xsmall-6 small-5 small-push-1 columns">
+      <p>Newer Post</p>
+    {% if page.previous.url %}
+      <a class="prev" href="{{page.previous.url}}">{{page.previous.title}}</a>
+    {% endif %}
+    </div>
+
+    <div class="xsmall-6 small-5 small-pull-1 columns text-right">
+      <p>Older Post</p>
+    {% if page.next.url %}
+      <a class="next" href="{{page.next.url}}">{{page.next.title}}</a>
+    {% endif %}
     </div>
   </div>
 </article>

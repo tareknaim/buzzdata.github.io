@@ -1,6 +1,5 @@
 article.post {
   padding-top: 100px;
-  padding-bottom: 90px;
 
   time {
     display: block;
@@ -112,5 +111,14 @@ article.post {
         color: $link-color;
       }
     }
+  }
+}
+
+.bottom-post-nav {
+  padding-top: 90px;
+  padding-bottom: 40px;
+
+  p {
+    margin-bottom: 2px;
   }
 }
