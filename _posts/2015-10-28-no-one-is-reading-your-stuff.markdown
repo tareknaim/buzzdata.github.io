@@ -1,8 +1,8 @@
 ---
-published: true
 layout: post
+title:  "No One is Reading Your Stuff: The Content Marketer’s Worst Fear"
 date: "2015-10-28 12:20:38 -0500"
-tags: 
+tags:
   - content marketing
   - B2B Marketing
 image: "/assets/posts/explaining-modern-marketing-to-my-mom.png"
@@ -30,7 +30,9 @@ In modern marketing, the “build it and they will come” approach to producing
 In B2B content marketing, as in life, what you can’t see can hurt you. It’s time for content marketers to shine a light into those dark corners and start looking at what happens after the click, conversion and download. To avoid nasty surprises, you need to find better ways to track content engagement and measure content ROI; otherwise the next thing that goes bump in the night just might be your awesome new eBook thudding into the junk bin.
 
 **Speaking of eBooks….**
-Lucky for you, there is new research out there about how busy and distracted buyers consume content today and new metrics to track how much time they’re spending with yours. Turns out engaged buyers, busy as they are, have a Netflix-sized appetite for consuming a lot of content in a short period of time. Check out the [**Ultimate Guide to Always-on Nurturing**](http://nurturenow.lookbookhq.com/always-on-nurturing/eBook) for tips from the pros on how to banish the ghosts of nurturing past (slow, time-bound and underperforming) and satisfy your buyer’s craving for more right now.
+Lucky for you, there is new research out there about how busy and distracted buyers consume content today and new metrics to track how much time they’re spending with yours. Turns out engaged buyers, busy as they are, have a Netflix-sized appetite for consuming a lot of content in a short period of time. Check out the [**Ultimate Guide to Always-on Nurturing**](http://nurturenow.lookbookhq.com/always-on-nurturing/eBook) for tips from the pros on how to banish the ghosts of nurturing past (slow, time-bound and underperforming) and satisfy your buyer’s craving for more right now.  
 
-
+<br>
 _**[Steve McOrmond](https://ca.linkedin.com/pub/steve-mcormond/24/723/7a6)** is Content Marketing Manager at LookBookHQ. He has over 15 years of experience creating marketing content that fuels demand for high-growth technology companies. _
+
+<sup>***Source:** Missing the Mark: Global Content Survey of Brand Marketers and their B2B Audiences,” The Economist Group, October 2014.</sup>

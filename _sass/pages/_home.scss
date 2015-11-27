@@ -60,16 +60,19 @@
 .home-clients {
   padding-top: 20px;
 
-  @media only screen and (min-width: (($largeScreen + 1) + px)) {
+  .column-image-bottom {
+    padding-bottom: 0;
+  }
+  
+  @media only screen and (min-width: (($mediumScreen + 1) + px)) {
     .column-image-bottom {
-      padding-top: 90px;
-      padding-bottom: 0;
+      padding-top: 120px;
     }
   }
 }
 
 .logo-carousel-wrapper {
-  
+
   @media only screen and (min-width: (($largeScreen + 1) + px)) {
     padding-top: 20px;
     padding-bottom: 20px;

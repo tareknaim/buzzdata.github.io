@@ -27,6 +27,10 @@
     position: relative;
     top: -34px;
 
+    @include media-query($mediumScreen) {
+      top: -20px;
+    }
+
     &:after {
       content: "";
       position: absolute;

@@ -98,3 +98,10 @@ footer.site-footer {
     }
   }
 }
+
+#footerImg {
+
+  @include media-query($smallScreen) {
+    width: 45%;
+  }
+}
