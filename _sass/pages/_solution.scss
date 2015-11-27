@@ -1,0 +1,29 @@
+.solution-hero {
+  padding-top: 40px;
+
+  .columns:last-child {
+    padding-bottom: 20px;
+  }
+}
+
+.solution-previews {
+
+  &:after {
+    content: "";
+    display: block;
+    background: $grey-light;
+    height: 80px;
+
+    @include media-query($smallScreen) {
+      height: 50px;
+    }
+
+    @include media-query($mediumScreen) {
+      height: 40px;
+    }
+
+    @include media-query($largeScreen) {
+      height: 30px;
+    }
+  }
+}
