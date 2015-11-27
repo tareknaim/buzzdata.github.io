@@ -1,9 +1,5 @@
 .home-hero {
 
-  .btn {
-    opacity: 0.8;
-  }
-
   .col,.column,.columns {
     padding-top: 100px;
   }
@@ -13,6 +9,14 @@
       padding-top: 130px !important;
       padding-bottom: 0px;
     }
+  }
+}
+
+.home-binge {
+  padding-top: 40px;
+
+  > .row .columns {
+    padding-bottom: 15px;
   }
 }
 
