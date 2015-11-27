@@ -10,7 +10,7 @@ image: "/assets/posts/explaining-modern-marketing-to-my-mom.png"
 published: true
 ---
 
-In [part one](http://www.lookbookhq.com/content/explaining-modern-marketing-to-my-mom) of this series, in which I attempt to demystify modern marketing for my mom, I tackled what I do for a living. Naturally, that led to some interesting follow-up questions from my mom Julia including this one:[the site!](http://lookbookhq.com)
+In [part one](http://www.lookbookhq.com/content/explaining-modern-marketing-to-my-mom) of this series, in which I attempt to demystify modern marketing for my mom, I tackled what I do for a living. Naturally, that led to some interesting follow-up questions from my mom Julia including this one:
 
 **Dear Martha, I am a bit confused about what you mean by content…. What is it? What the heck is a white paper? Are there other colors of paper? **
 
