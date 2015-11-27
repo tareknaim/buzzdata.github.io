@@ -90,15 +90,15 @@
   }
 
   .embed-wrapper {
+    padding-top: 10px;
+
+    h6 {
+      margin-bottom: 30px;
+    }
 
     @media only screen and (min-width: (($largeScreen + 1) + px)) {
       padding-left: 0;
       padding-right: 0;
-      padding-top: 10px;
-
-      h6 {
-        margin-bottom: 30px;
-      }
     }
   }
 }
