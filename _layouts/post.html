@@ -65,15 +65,15 @@ body_class: post
 
   <div class="row bottom-post-nav">
     <div class="xsmall-6 small-5 small-push-1 columns">
-      <p>Newer Post</p>
     {% if page.previous.url %}
+      <p>Newer Post</p>
       <a class="prev" href="{{page.previous.url}}">{{page.previous.title}}</a>
     {% endif %}
     </div>
 
     <div class="xsmall-6 small-5 small-pull-1 columns text-right">
-      <p>Older Post</p>
     {% if page.next.url %}
+      <p>Older Post</p>
       <a class="next" href="{{page.next.url}}">{{page.next.title}}</a>
     {% endif %}
     </div>
