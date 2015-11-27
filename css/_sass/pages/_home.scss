@@ -1,13 +1,32 @@
 .home-hero {
 
-  .col,.column,.columns {
-    padding-top: 100px;
+  .columns:first-child {
+    padding-top: 50px;
+  }
+
+  .column-image-bottom {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .btn.btn-small {
+    margin-top: 20px;
+  }
+
+  @include media-query($largeScreen) {
+    .btn.btn-small {
+      margin-bottom: 20px;
+    }
   }
 
   @media only screen and (min-width: (($largeScreen + 1) + px)) {
+
     .column-image-bottom {
-      padding-top: 130px !important;
-      padding-bottom: 0px;
+      padding-top: 160px;
+    }
+
+    .columns:first-child {
+      padding-top: 100px;
     }
   }
 }
@@ -20,7 +39,51 @@
   }
 }
 
+.home-moment {
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.home-return {
+  padding-top: 30px;
+  padding-bottom: 80px;
+
+  > .row:first-child .columns {
+    padding-bottom: 0;
+  }
+
+  .btn.btn-medium {
+    margin-top: 40px;
+  }
+}
+
+.home-clients {
+  padding-top: 20px;
+
+  @media only screen and (min-width: (($largeScreen + 1) + px)) {
+    .column-image-bottom {
+      padding-top: 90px;
+      padding-bottom: 0;
+    }
+  }
+}
+
+.home-review {
+  padding-top: 40px;
+  padding-bottom: 30px;
+
+  > .row .columns:last-child {
+
+    @include media-query($smallScreen) {
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+  }
+}
+
 .home-embeds {
+  padding-top: 20px;
+  padding-bottom: 60px;
 
   .lb-unity-wrapper {
     display: inline-block;
@@ -31,6 +94,11 @@
     @media only screen and (min-width: (($largeScreen + 1) + px)) {
       padding-left: 0;
       padding-right: 0;
+      padding-top: 10px;
+
+      h6 {
+        margin-bottom: 30px;
+      }
     }
   }
 }
