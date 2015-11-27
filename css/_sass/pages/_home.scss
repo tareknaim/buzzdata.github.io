@@ -1,14 +1,11 @@
-body.home {
+.home-hero {
 
-  .hero {
+  .btn {
+    opacity: 0.8;
+  }
 
-    .btn {
-      opacity: 0.8;
-    }
-
-    .col,.column,.columns {
-      padding-top: 100px;
-    }
+  .col,.column,.columns {
+    padding-top: 100px;
   }
 
   @media only screen and (min-width: (($largeScreen + 1) + px)) {
