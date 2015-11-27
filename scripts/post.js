@@ -6,7 +6,6 @@ jQuery(window).ready(function($) {
 		owl.owlCarousel({
       itemsCustom : [[0, 2]],
       stopOnHover : true,
-			autoHeight : true,
 			pagination : false,
 			scrollPerPage : true,
 			rewindNav : false
