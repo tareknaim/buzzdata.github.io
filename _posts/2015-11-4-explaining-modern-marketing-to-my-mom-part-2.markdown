@@ -1,11 +1,15 @@
 ---
 layout: post
-title:  "Explaining Modern Marketing to My Mom: Part 2"
-date:   2015-11-4 12:20:38 -0500
-categories:
-tags: ["content marketing", "B2B Marketing"]
-image: /assets/posts/explaining-modern-marketing-to-my-mom.png
+title: "Explaining Modern Marketing to My Mom: Part 2"
+date: "2015-11-4 12:20:38 -0500"
+categories: null
+tags: 
+  - content marketing
+  - B2B Marketing
+image: "/assets/posts/explaining-modern-marketing-to-my-mom.png"
+published: true
 ---
+
 In [part one](http://www.lookbookhq.com/content/explaining-modern-marketing-to-my-mom) of this series, in which I attempt to demystify modern marketing for my mom, I tackled what I do for a living. Naturally, that led to some interesting follow-up questions from my mom Julia including this one:
 
 **Dear Martha, I am a bit confused about what you mean by content…. What is it? What the heck is a white paper? Are there other colors of paper? **
