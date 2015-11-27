@@ -15,7 +15,11 @@
       {% include footer.html %}
     </div>
 
-    {% if page_type == post %}<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5518711a5be4cb59" async="async"></script>{% endif %}
+    {% if page_type == post %}
+    <script type="text/javascript" src="{{ "/scripts/vendor/owl.carousel.min.js" | prepend: site.baseurl }}"></script>
+    <script type="text/javascript" src="{{ "/scripts/post.js" | prepend: site.baseurl }}"></script>
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5518711a5be4cb59" async="async"></script>
+    {% endif %}
   </body>
 
 </html>

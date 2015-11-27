@@ -10,6 +10,10 @@
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
 
+  {% if page_type == post %}
+  <link rel="stylesheet" href="{{ "/css/vendor/owl.carousel.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/css/vendor/owl.theme.css" | prepend: site.baseurl }}">
+  {% endif %}
   <script src="{{ "/scripts/vendor/jquery.min.js" | prepend: site.baseurl }}" type="text/javascript"></script>
   <script src="{{ "/scripts/vendor/modernizr.js" | prepend: site.baseurl }}" type="text/javascript"></script>
   <script src="{{ "/scripts/site.js" | prepend: site.baseurl }}" type="text/javascript"></script>

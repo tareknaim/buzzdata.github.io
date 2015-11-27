@@ -56,3 +56,61 @@ article.post {
     margin-right: 20px;
   }
 }
+
+.latest-posts {
+  padding-top: 30px;
+  padding-bottom: 40px;
+
+  .heading {
+    font-size: em(14);
+  }
+
+  .heading, .owlnav {
+    margin-bottom: 10px;
+  }
+
+  p {
+    color: $blue;
+  }
+
+  .owlnav {
+    float: right;
+
+    i {
+      color: #6D7D9A;
+      font-size: 28px;
+    }
+  }
+
+  .custom-owlnav {
+    cursor: pointer;
+
+    &.prev {
+      margin-right: 15px;
+    }
+  }
+
+  .owl-wrapper {
+
+    > div:nth-child(odd) {
+      padding-right: 8px;
+    }
+
+    > div:nth-child(even) {
+      padding-left: 8px;
+    }
+  }
+
+  .recent-post-link {
+    margin-top: 10px;
+
+    a {
+      font-size: em(14);
+      color: $blue;
+
+      &:hover {
+        color: $link-color;
+      }
+    }
+  }
+}
