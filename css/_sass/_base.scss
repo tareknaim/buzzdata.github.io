@@ -50,7 +50,7 @@ h1, h2, h3, h4, h5, h6,
 h1,
 .alpha {
   font-size: em(45);
-  color: $text-color;
+  color: $teal;
   line-height: 1.2;
 }
 
@@ -206,6 +206,14 @@ strong {
 
 .text-right {
   text-align: right;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
 }
 
 /**
