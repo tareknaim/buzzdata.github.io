@@ -20,3 +20,31 @@ article.post {
     }
   }
 }
+
+.post-metadata {
+
+  p {
+    color: $blue;
+  }
+
+  a {
+    color: $blue;
+
+    &:hover {
+      color: $link-color;
+    }
+  }
+
+  .likes,
+  .share {
+    color: $teal;
+
+    i {
+      margin-right: 8px;
+    }
+  }
+
+  .likes {
+    margin-right: 20px;
+  }
+}

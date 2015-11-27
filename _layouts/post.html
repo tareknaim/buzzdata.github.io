@@ -1,5 +1,6 @@
 ---
 layout: default
+body_class: post
 ---
 <article class="post">
   <div class="row">
@@ -8,18 +9,29 @@ layout: default
       <header class="post-header text-center">
         <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %-d, %Y" }}</time>
         <h1 class="post-title" itemprop="name headline"><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></h1>
-        <!-- <p class="post-meta">{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p> -->
       </header>
 
       {{ content }}
     </div>
   </div>
+
+  <div class="row latest-posts">
+    <div class="xsmall-12 xsmall-uncentered small-10 small-centered columns">
+
+    </div>
+  </div>
+
+  <div class="row text-center post-metadata">
+    <div class="xsmall-12 xsmall-uncentered small-10 small-centered columns">
+      <p>Tagged:
+        {% for tag in page.tags %}
+          <a href="/blog/?c={{ tag | downcase | replace:" ","-" | prepend: site.baseurl }}">{{tag}}</a>{% if forloop.last == false %}, {% endif %}
+        {% endfor %}
+      </p>
+      <p>
+        <a href="" class="likes"><i class="fa fa-heart"></i>Likes</a>
+        <a href="" class="share"><i class="fa fa-share-alt"></i>Share</a>
+      </p>
+    </div>
+  </div>
 </article>
-
-<section class="latest-posts">
-
-</section>
-
-<section class="post-comments">
-  
-</section>
