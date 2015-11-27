@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
 
+  {% assign page_type = page.body_class %}
   {% include head.html %}
   {% include sidenav.html %}
-  {% assign page_type = page.body_class %}
 
   <body{% if page.body_class %} class="{{ page.body_class }}"{% endif %}>
 
@@ -15,10 +15,16 @@
       {% include footer.html %}
     </div>
 
+  {% if page_type == "home" or page_type == "post" %}
     <script type="text/javascript" src="{{ "/scripts/vendor/owl.carousel.min.js" | prepend: site.baseurl }}"></script>
+  {% endif %}
+  {% if page_type == "home" %}
     <script type="text/javascript" src="{{ "/scripts/home.js" | prepend: site.baseurl }}"></script>
+  {% endif %}
+  {% if page_type == "post" %}
     <script type="text/javascript" src="{{ "/scripts/post.js" | prepend: site.baseurl }}"></script>
     <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5518711a5be4cb59" async="async"></script>
+  {% endif %}
   </body>
 
 </html>
