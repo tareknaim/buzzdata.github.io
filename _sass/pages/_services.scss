@@ -1,0 +1,22 @@
+.services-hero {
+
+  .row {
+
+    > div:first-child {
+      padding-top: 50px;
+
+      @include media-query($mediumScreen) {
+        padding-bottom: 0;
+      }
+    }
+
+    > div:last-child {
+      padding-top: 0;
+    }
+  }
+
+  h1 {
+    color: $mint;
+    margin-bottom: 20px;
+  }
+}
