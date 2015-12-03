@@ -12,7 +12,7 @@
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
 
-  {% if page_type == "home" or page_type == "post" %}
+  {% if page_type == "home" or page_type == "post" or page_type == "solution" %}
   <link rel="stylesheet" href="{{ "/css/vendor/owl.transitions.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ "/css/vendor/owl.carousel.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ "/css/vendor/owl.theme.css" | prepend: site.baseurl }}">

@@ -26,4 +26,37 @@
       height: 30px;
     }
   }
+
+  .columns {
+    padding-bottom: 0;
+  }
+
+  .owl-theme .owl-controls {
+    margin: 0;
+  }
+
+  .owl-theme .owl-controls .owl-buttons div {
+    background: #eee;
+    background: rgba(0,0,0,.25);
+    font-size: 38px;
+    padding: 2px 14px;
+    border-radius: 0;
+    margin: 0;
+    @include transition(opacity 0.2s ease-in-out);
+  }
+
+  .owl-theme .owl-controls .owl-buttons .owl-prev,
+  .owl-theme .owl-controls .owl-buttons .owl-next {
+    position: absolute;
+    top: 50%;
+    margin-top: -30px;
+  }
+
+  .owl-theme .owl-controls .owl-buttons .owl-prev {
+    left: 0;
+  }
+
+  .owl-theme .owl-controls .owl-buttons .owl-next {
+    right: 0;
+  }
 }
