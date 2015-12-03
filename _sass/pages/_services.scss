@@ -1,4 +1,5 @@
 .services-hero {
+  padding-bottom: 60px;
 
   .row {
 
@@ -18,5 +19,13 @@
   h1 {
     color: $mint;
     margin-bottom: 20px;
+  }
+}
+
+.services-diagram {
+
+  .columns {
+    padding-top: 10px;
+    padding-bottom: 0;
   }
 }
