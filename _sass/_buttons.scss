@@ -74,6 +74,15 @@ input[type="submit"] {
       background: rgba(244, 153, 30, 0.8);
     }
   }
+
+  &-dk-teal {
+    @extend %btn-solid;
+    background: #0A809F;
+
+    &:hover {
+      background: rgba(10, 128, 159, 0.8);
+    }
+  }
 }
 
 .btn-outline {
