@@ -24,3 +24,38 @@
     }
   }
 }
+
+// terms of service and privacy policy pages
+.extras {
+  padding-top: 46px;
+  padding-bottom: 40px;
+
+  h1, h2 {
+    color: $text-color;
+  }
+
+  h1 {
+    margin-bottom: 40px;
+  }
+
+  h2 {
+    margin-top: 25px;
+  }
+
+  ul, ol {
+    margin-left: 40px;
+  }
+
+  @media only screen and (min-width: ($smallScreen + 1) + px) {
+    padding-top: 76px;
+    padding-bottom: 70px;
+
+    h1 {
+      margin-bottom: 80px;
+    }
+
+    h2 {
+      margin-top: 40px;
+    }
+  }
+}
