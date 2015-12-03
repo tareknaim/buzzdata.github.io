@@ -29,6 +29,22 @@ section {
   }
 }
 
+.anchor-div {
+  margin-top: -$header-lg-height;
+
+  @include media-query(990) {
+    margin-top: -$header-sm-height;
+  }
+}
+
+.anchor-target {
+  margin-top: $header-lg-height;
+
+  @include media-query(990) {
+    margin-top: $header-sm-height;
+  }
+}
+
 .bg-teal {
   background: $teal;
 }
