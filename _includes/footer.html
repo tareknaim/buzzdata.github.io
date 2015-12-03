@@ -1,3 +1,4 @@
+{% if page_type != "thanks" %}
 <section class="pre-footer bg-lt-navy">
   <div class="row xsmall-text-center small-text-left">
     <div class="xsmall-12 small-5 columns">
@@ -12,7 +13,7 @@
     <img id="footerImg" class="fade-in-element" src="{{ site.baseurl }}/assets/demo.png" alt="Take a Test Drive">
   </div>
 </section>
-
+{% endif %}
 <footer class="site-footer bg-navy">
 
   <div class="row site-footer-top">
@@ -41,19 +42,19 @@
   <div class="row site-footer-links">
     <div class="xsmall-12 small-3 columns xsmall-text-center small-text-left">
       <div class="link-wrapper">
-        <a href="/solution"><strong>Solution</strong></a>
+        <a href="{{ "/solution" | prepend: site.baseurl }}"><strong>Solution</strong></a>
       </div>
       <div class="link-wrapper">
-        <a href="/solution/#effective">Content Experiences</a>
+        <a href="{{ "/solution/#effective" | prepend: site.baseurl }}">Content Experiences</a>
       </div>
       <div class="link-wrapper">
-        <a href="/solution/#engagement">Engagement Metrics</a>
+        <a href="{{ "/solution/#engagement" | prepend: site.baseurl }}">Engagement Metrics</a>
       </div>
       <div class="link-wrapper">
-        <a href="/solution/#intergrations">Seamless Integrations</a>
+        <a href="{{ "/solution/#integrations" | prepend: site.baseurl }}">Seamless Integrations</a>
       </div>
       <div class="link-wrapper">
-        <a href="/solution/#interface">Intuitive Interface</a>
+        <a href="{{ "/solution/#interface" | prepend: site.baseurl }}">Intuitive Interface</a>
       </div>
     </div>
 
@@ -61,29 +62,29 @@
       <div class="row">
         <div class="xsmall-12 small-3 columns">
           <div class="link-wrapper">
-            <a href="/about-lookbookhq"><strong>About</strong></a>
+            <a href="{{ "/about-lookbookhq" | prepend: site.baseurl }}"><strong>About</strong></a>
           </div>
           <div class="link-wrapper">
-            <a href="/about-lookbookhq/#leadership">Leadership</a>
+            <a href="{{ "/about-lookbookhq/#leadership" | prepend: site.baseurl }}">Leadership</a>
           </div>
           <div class="link-wrapper">
-            <a href="/about-lookbookhq/#jobs">Careers</a>
+            <a href="{{ "/about-lookbookhq/#jobs" | prepend: site.baseurl }}">Careers</a>
           </div>
           <div class="link-wrapper">
-            <a href="/about-lookbookhq/#contactus">Contact</a>
+            <a href="{{ "/about-lookbookhq/#contactus" | prepend: site.baseurl }}">Contact</a>
           </div>
         </div>
 
         <div class="xsmall-12 small-3 columns">
-          <a href="/services"><strong>Services</strong></a>
+          <a href="{{ "/services" | prepend: site.baseurl }}"><strong>Services</strong></a>
         </div>
 
         <div class="xsmall-12 small-3 columns">
-          <a href="/resources"><strong>Resources</strong></a>
+          <a href="{{ "/resources" | prepend: site.baseurl }}"><strong>Resources</strong></a>
         </div>
 
         <div class="xsmall-12 small-3 columns">
-          <a href="/blog"><strong>Blog</strong></a>
+          <a href="{{ "/blog" | prepend: site.baseurl }}"><strong>Blog</strong></a>
         </div>
       </div>
     </div>
@@ -92,7 +93,7 @@
   <div class="row site-footer-bottom">
     <div class="xsmall-12 columns xsmall-text-center small-text-left">
       <p>© 2015 LookBookHQ Inc. <br>
-        <a href="/terms-of-service">Terms Of Service</a> &nbsp; &nbsp;| &nbsp; &nbsp;<a href="/privacy-policy">Privacy Policy</a>
+        <a href="{{ "/terms-of-service" | prepend: site.baseurl }}">Terms Of Service</a> &nbsp; &nbsp;| &nbsp; &nbsp;<a href="{{ "/privacy-policy" | prepend: site.baseurl }}">Privacy Policy</a>
       </p>
     </div>
   </div>
