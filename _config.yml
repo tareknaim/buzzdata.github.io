@@ -22,7 +22,9 @@ markdown: kramdown
 
 sass:
   # sass_dir: css/_sass
-  # style: compressed
+  style: compressed
+
+excerpt_separator: </p>
 
 gem:
   - jekyll-auto-image
