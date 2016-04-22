@@ -7,7 +7,7 @@ tags: ["content marketing", "B2B Marketing", "Fast-moving Buyers"]
 image: /assets/posts/4-things-b2b-marketers-can-be-thankful-for.png
 ---
 As B2B marketers, we’re pros at identifying and solving problems. Iteration is one of our super powers and we can always make a campaign better next time. But sometimes we’re so focused on improving that we don’t stop to celebrate our successes or be thankful for how much B2B marketing practices and technology has changed for the better over the past few years. In honor of Thanksgiving, here’s a list of 4 things that B2B marketers can be thankful for.
-
+<!--more-->
 **1\.  Your Fast-Moving B2B Buyers Want to Get Their Binge On**  
 We spend a lot of time and resources creating content to fuel demand. But it’s easy to feel like we’re not making an impact with our content. We build it and throw it out there on all channels, but we can’t really be sure whether anyone is spending quality time with it or whether it’s influencing our buyers. Is that new eBook resonating with your target audience or is it the marketing equivalent of a turkey dinner – inducing big Tryptophan zzzzzzzzzzz’s?
 
