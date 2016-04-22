@@ -8,7 +8,7 @@ image: /assets/posts/6-things-that-scare.png
 ---
 In [part one](http://www.lookbookhq.com/content/explaining-modern-marketing-to-my-mom) of this series, in which I attempt to demystify modern marketing for my mom, I tackled what I do for a living. Naturally, that led to some interesting follow-up questions from my mom Julia including this one:
 In honor of Halloween, earlier this week we looked at [the content marketer’s worst fear](http://www.lookbookhq.com/content/2015/10/28/no-one-is-reading-your-stuff-the-content-marketers-worst-fear) (#MktgFearFest), which got us thinking about what terrifies other Sales and Marketing professionals in their roles. We asked around and came up with a list of frightful things that keep some members of your Sales and Marketing team up at night.
-
+<!--more-->
 <br>
 **The CMO/VP Marketing:**
 For marketing leaders, your success is inexplicably intertwined with the success and effectiveness of your team. Having the right skills, resources and experience levels aligned to the right goals is essential to drive successful outcomes. But like the inevitable walk into a dark basement in a horror flick (why do they always do it?), hiring and talent development always seem to take a backseat to whatever today’s most pressing project or fire is. The reality for marketing leaders is that talent acquisition, management and development should always be the top priority. Without it, everything else will slide.
