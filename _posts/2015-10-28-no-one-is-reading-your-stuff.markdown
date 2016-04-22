@@ -11,6 +11,7 @@ image: "/assets/posts/explaining-modern-marketing-to-my-mom.png"
 
 
 With Halloween right around the corner, it’s the perfect time to take a look at what terrifies content marketers most and what you can do to dispel your worst fears. First, you might want to take a deep breath and brace yourself because it’s pretty scary: No one is reading your stuff. Or are they? Let’s grab our ghost-busting gear and investigate.
+<!--more-->
 
 **Your eBook is Done!**
 So you’ve shed buckets of blood, sweat and tears to create _the_ definitive eBook. You’ve strained your eyes, neck and fingers through 4 weeks and 10 revs, with countless edits from too many stakeholders to count. You’ve finally wrangled everyone and gotten sign off on something that’s not only genuinely useful, but has a clear point of view, personality and real writing panache.
