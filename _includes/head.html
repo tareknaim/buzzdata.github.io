@@ -49,7 +49,7 @@
     else if (window.attachEvent) window.attachEvent('onload', async_load);
     })();
   </script>
-  {% if page_type == "staging2" %}
+  {% if env_name == "staging2" %}
   <script>
     (function(j,u,k,e,b,o,x){j[b]=j[b]||function(){
     (j[b].q=j[b].q||[]).push(arguments)},j[b].l=1*new Date();o=u.createElement(k),
@@ -57,7 +57,7 @@
     })(window,document,'script','http://app.cdn.lookbookhq.com/staging2/jukebox/current/jukebox.js','lbhq');
   
     lbhq("create", "LB-CA0A6FCD-1");
-    lbhq("_env", "demo2");
+    lbhq("_env", "staging2");
   </script>
   {% else %}
   <script>
