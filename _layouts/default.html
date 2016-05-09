@@ -2,7 +2,7 @@
 <html>
 
   {% assign page_type = page.body_class %}
-  {% assign env_name = "demo2" %}
+  {% assign env_name = page.env_name || "demo2" %}
   {% include head.html %}
   {% include sidenav.html %}
 
